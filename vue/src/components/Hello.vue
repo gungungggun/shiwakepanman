@@ -2,7 +2,7 @@
   div.wrap
     div
       h1
-        img(src="/static/title.png")
+        img(src="static/title.png")
       router-link(to="start") スタート
 </template>
 

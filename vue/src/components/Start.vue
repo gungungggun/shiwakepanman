@@ -8,13 +8,13 @@
       v-touch.view(v-on:swipeleft="onSwipeLeft" v-on:swiperight="onSwipeRight")
         div.items(:class="{ left: !action, right: action }")
           transition(v-for="(item, index) in list"  name="char" mode="out-in")
-            div.item(:style="{backgroundImage: 'url(/static/' + master[item].name + '.png'}" v-if="index===count")
+            div.item(:style="{backgroundImage: 'url(static/' + master[item].name + '.png'}" v-if="index===count")
     footer
       div.box.left(:style="{background: master[select[0]].color}")
-        img(:src="'/static/' + master[select[0]].name + '.png'")
+        img(:src="'static/' + master[select[0]].name + '.png'")
         p {{ select[0]  }}
       div.box.right(:style="{background: master[select[1]].color}")
-        img(:src="'/static/' + master[select[1]].name + '.png'")
+        img(:src="'static/' + master[select[1]].name + '.png'")
 </template>
 
 <script>
@@ -36,6 +36,22 @@ export default {
         {
           name: "dokinchan",
           color: "#ff6600"
+        },
+        {
+          name: "karepanman",
+          color: "#9c6d4b"
+        },
+        {
+          name: "shokupanman",
+          color: "#ffffff"
+        },
+        {
+          name: "jamojisan",
+          color: "#dcfffc"
+        },
+        {
+          name: "batako",
+          color: "#005998"
         }
       ],
       count: 0,
