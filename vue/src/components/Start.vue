@@ -59,6 +59,18 @@ export default {
         {
           name: "batako",
           color: "#005998"
+        },
+        {
+          name: "kokinchan",
+          color: "#00a0e0"
+        },
+        {
+          name: "horaman",
+          color: "#8f5396"
+        },
+        {
+          name: "komusubiman",
+          color: "#ffeeee"
         }
       ],
       count: 0,
