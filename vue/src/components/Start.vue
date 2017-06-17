@@ -107,6 +107,50 @@ export default {
         {
           name: "hanbagakid",
           color: "#f1a548"
+        },
+        {
+          name: "katsudonman",
+          color: "#c4ffd0"
+        },
+        /*{
+          name: "tendonman",
+          color: "#ccfdff"
+        },*/
+        {
+          name: "kamameshidon",
+          color: "#525252"
+        },
+        {
+          name: "slman",
+          color: "#d63030"
+        },
+        {
+          name: "poppochan",
+          color: "#ffa9d1"
+        },
+        {
+          name: "baikinsennin",
+          color: "#975ba2"
+        },
+        {
+          name: "naganegiman",
+          color: "#42bf4c"
+        },
+        {
+          name: "datemakiman",
+          color: "#444444"
+        },
+        {
+          name: "shiratamasan",
+          color: "#ffffff"
+        },
+        {
+          name: "bikubikuchan",
+          color: "#ceecf7"
+        },
+        {
+          name: "burikiddo",
+          color: "#4274bf"
         }
       ],
       count: 0,
@@ -265,5 +309,7 @@ footer
     height 100%
     border-top 1px solid #333
     img
+      box-sizing border-box
+      padding 2% 0
       height 100%
 </style>
