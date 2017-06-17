@@ -95,6 +95,18 @@ export default {
         {
           name: "omusubiman",
           color: "#fffefe"
+        },
+        {
+          name: "kabirunrun",
+          color: "#b5a1bd"
+        },
+        {
+          name: "dadandan",
+          color: "#493f4a"
+        },
+        {
+          name: "hanbagakid",
+          color: "#f1a548"
         }
       ],
       count: 0,
