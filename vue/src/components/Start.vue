@@ -17,10 +17,10 @@
           transition(v-for="(item, index) in list"  name="char" mode="out-in")
             div.item(:style="{backgroundImage: 'url(static/' + master[item].name + '.png'}" v-if="index===count")
     footer
-      div.box.left(:style="{background: master[select[0]].color}")
+      div.box.left(:style="{background: master[select[0]].color}" @click="onSwipeLeft")
         img(:src="'static/' + master[select[0]].name + '.png'")
         p {{ select[0]  }}
-      div.box.right(:style="{background: master[select[1]].color}")
+      div.box.right(:style="{background: master[select[1]].color}" @click="onSwipeRight")
         img(:src="'static/' + master[select[1]].name + '.png'")
 </template>
 
