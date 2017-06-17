@@ -61,12 +61,32 @@ export default {
           color: "#005998"
         },
         {
+          name: "chizu",
+          color: "#ffca35"
+        },
+        {
           name: "kokinchan",
           color: "#00a0e0"
         },
         {
           name: "horaman",
           color: "#8f5396"
+        },
+        {
+          name: "meronpanna",
+          color: "#d3ffb2"
+        },
+        {
+          name: "rorupanna",
+          color: "#1d0838"
+        },
+        {
+          name: "kurimupanda",
+          color: "#ffcf78"
+        },
+        {
+          name: "akachanman",
+          color: "#ff5be3"
         },
         {
           name: "komusubiman",
