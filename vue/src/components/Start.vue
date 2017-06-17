@@ -4,6 +4,13 @@
       div.result(v-if="result !== null")
         p.success(v-if="result") O
         p(v-else) X
+      div.score
+        div.success
+          span.mark O
+          span {{ score.success }}
+        div.failed
+          span.mark X
+          span {{ score.failed }}
     main
       v-touch.view(v-on:swipeleft="onSwipeLeft" v-on:swiperight="onSwipeRight")
         div.items(:class="{ left: !action, right: action }")
@@ -55,6 +62,10 @@ export default {
         }
       ],
       count: 0,
+      score: {
+        success: 0,
+        failed: 0
+      },
       select: [],
       list: [],
       result: null,
@@ -88,8 +99,10 @@ export default {
       this.action = num
       if (this.select[num] === this.list[this.count]) {
         this.result = 1
+        this.score.success++
       } else {
         this.result = 0
+        this.score.failed++
       }
       this.count++
 
@@ -181,6 +194,16 @@ header
       margin 0
       &.success
         color #00f
+  .score
+    position absolute
+    top 2%
+    right 2%
+    .success
+      .mark
+        color #00f
+    .failed
+      .mark
+        color #f00
 
 footer
   position fixed
