@@ -91,6 +91,10 @@ export default {
         {
           name: "komusubiman",
           color: "#ffeeee"
+        },
+        {
+          name: "omusubiman",
+          color: "#fffefe"
         }
       ],
       count: 0,
@@ -114,7 +118,7 @@ export default {
       this.select = [rand1, rand2]
 
       this.list = []
-      for (let i = 0; i < 5; i++) {
+      for (let i = 0; i < 3; i++) {
         let rand = Math.floor( Math.random() * this.select.length )
         this.list.push(this.select[rand])
       }
