@@ -112,10 +112,10 @@ export default {
           name: "katsudonman",
           color: "#c4ffd0"
         },
-        /*{
+        {
           name: "tendonman",
           color: "#ccfdff"
-        },*/
+        },
         {
           name: "kamameshidon",
           color: "#525252"
@@ -151,6 +151,22 @@ export default {
         {
           name: "burikiddo",
           color: "#4274bf"
+        },
+        {
+          name: "kabao",
+          color: "#a27100"
+        },
+        {
+          name: "dorianoujo",
+          color: "#f3b11c"
+        },
+        {
+          name: "baikichikun",
+          color: "#975ba2"
+        },
+        {
+          name: "dokikochan",
+          color: "#ff6600"
         }
       ],
       count: 0,
