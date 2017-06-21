@@ -12,6 +12,7 @@
           span.mark X
           span {{ score.failed }}
     main
+      audio(src="static/sounds/play.mp3" autoplay loop)
       v-touch.view(v-on:swipeleft="onSwipeLeft" v-on:swiperight="onSwipeRight")
         div.items(:class="{ left: !action, right: action }")
           transition(v-for="(item, index) in list"  name="char" mode="out-in")

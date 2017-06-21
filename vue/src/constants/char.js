@@ -1,7 +1,7 @@
 module.exports = {
   charcter: {
     master: [
-      /*{
+      {
         name: "anpanman",
         color: "#f10000"
       },
@@ -132,7 +132,7 @@ module.exports = {
       {
         name: "baikichikun",
         color: "#975ba2"
-      },*/
+      },
       {
         name: "chibizokun",
         color: "#ff00a5"
@@ -152,6 +152,14 @@ module.exports = {
       {
         name: "kemuriinu",
         color: "#ffeba0"
+      },
+      {
+        name: "mimisensei",
+        color: "#5eefef"
+      },
+      {
+        name: "tekkanomakichan",
+        color: "#730000"
       }
     ]
   }

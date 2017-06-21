@@ -4,6 +4,7 @@
       h1
         img(src="static/title.png")
       router-link(to="start") スタート
+      audio(src="static/sounds/yukirinrin.mp3" autoplay loop)
 </template>
 
 <style lang="stylus" scoped>
