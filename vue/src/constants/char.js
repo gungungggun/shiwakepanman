@@ -176,6 +176,10 @@ module.exports = {
       {
         name: "mogurin",
         color: "#33223e"
+      },
+      {
+        name: "yuzuhime",
+        color: "#c5257e"
       }
     ]
   }
