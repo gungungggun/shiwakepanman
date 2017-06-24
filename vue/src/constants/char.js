@@ -160,6 +160,22 @@ module.exports = {
       {
         name: "tekkanomakichan",
         color: "#730000"
+      },
+      {
+        name: "yukidaruman",
+        color: "#ffffff"
+      },
+      {
+        name: "yakisobapanman",
+        color: "#da8227"
+      },
+      {
+        name: "furankenrobo",
+        color: "#2b566b"
+      },
+      {
+        name: "mogurin",
+        color: "#33223e"
       }
     ]
   }
