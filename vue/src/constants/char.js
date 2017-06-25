@@ -180,6 +180,26 @@ module.exports = {
       {
         name: "yuzuhime",
         color: "#c5257e"
+      },
+      {
+        name: "naporitanroru",
+        color: "#ffffff"
+      },
+      {
+        name: "abogadojiiya",
+        color: "#221f35"
+      },
+      {
+        name: "katsubushiman",
+        color: "#1689ff"
+      },
+      {
+        name: "unadonman",
+        color: "#018057"
+      },
+      {
+        name: "sanshokun",
+        color: "#a9fdce"
       }
     ]
   }
